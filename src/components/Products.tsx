@@ -12,8 +12,8 @@ const Products: React.FC<ProductsProps> = ({ onProductSelect }) => {
       name: 'Multitome Maker',
       tagline: 'Advanced precision needle bending',
       description: 'Revolutionary multi-spectral tomography device that provides unprecedented detail in retinal imaging. Our Multitome Maker combines multiple imaging modalities to deliver comprehensive eye health assessments.',
-      image: 'https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=800',
-      video: 'https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4',
+      image: 'img6.png',
+      video: 'Media1.mp4',
       features: [
         'High-resolution retinal imaging',
         'Multi-spectral analysis capabilities',
