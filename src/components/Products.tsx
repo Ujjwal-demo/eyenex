@@ -15,10 +15,10 @@ const Products: React.FC<ProductsProps> = ({ onProductSelect }) => {
       image: 'img6.png',
       video: 'Media1.mp4',
       features: [
-        'High-resolution retinal imaging',
-        'Multi-spectral analysis capabilities',
-        'AI-powered diagnostic assistance',
-        'Real-time image processing'
+        'Cost efficiency',
+        'Synchronized bending',
+        'Time efficiency ',
+        'Unmatched precision'
       ],
       icon: <Microscope className="h-8 w-8" />
     },
