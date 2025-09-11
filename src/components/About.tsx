@@ -40,7 +40,7 @@ const About = () => {
       name: 'Raamachandiran A P',
       role: 'Mechanical Engineer',
       type: 'engineer',
-      image: 'img3.jpg',
+      image: 'img8.jpg',
       expertise: 'Prototyping & Testing',
     },
   ];
