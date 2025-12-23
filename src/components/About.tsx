@@ -43,6 +43,22 @@ const About = () => {
       image: 'img8.jpg',
       expertise: 'Prototyping & Testing',
     },
+    {
+      id: 6,
+      name: 'Dristi Sengupta',
+      role: 'Mechanical Engineer',
+      type: 'engineer',
+      image: 'img9.jpg',
+      expertise: 'Research and Development',
+    },
+    {
+      id: 7,
+      name: 'Aditya Kale',
+      role: 'Electrical Engineer',
+      type: 'engineer',
+      image: 'img10.jpg',
+      expertise: 'Electronics and Firmware',
+    },
   ];
 
   return (

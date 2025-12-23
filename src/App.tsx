@@ -4,7 +4,10 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import About from './components/About';
+import Partners from './components/partners';
+import Awards from './components/Awards';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import ProductDetail from './components/ProductDetail';
 
 function App() {
@@ -28,7 +31,10 @@ function App() {
         <Hero />
         <Products onProductSelect={setSelectedProduct} />
         <About />
+        <Partners />
+        <Awards />
         <Contact />
+        <Footer />
       </main>
     </div>
   );

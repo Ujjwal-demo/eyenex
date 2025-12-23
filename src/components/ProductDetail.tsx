@@ -48,8 +48,8 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ productId, onBack }) => {
       ]
     },
     2: {
-      name: 'Eyelead',
-      tagline: 'Smart Eye Tracking System',
+      name: 'Glaucommeter',
+      tagline: 'Interocular pressure handling device',
       shortDescription: 'Next-generation eye tracking technology that monitors eye movements and patterns for early detection of neurological conditions.',
       fullDescription: 'Eyelead is an advanced eye tracking system that goes beyond traditional gaze monitoring. Using sophisticated computer vision algorithms and machine learning, our system can detect subtle changes in eye movement patterns that may indicate early signs of neurological conditions such as Parkinson\'s disease, multiple sclerosis, and traumatic brain injury. The system provides precise, non-invasive monitoring that can be integrated into routine clinical examinations or used for ongoing patient monitoring.',
       icon: <Eye className="h-12 w-12" />,

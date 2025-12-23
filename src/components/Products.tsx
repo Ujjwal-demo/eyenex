@@ -24,10 +24,10 @@ const Products: React.FC<ProductsProps> = ({ onProductSelect }) => {
     },
     {
       id: 2,
-      name: 'Eyelead',
-      tagline: 'Smart Eye Tracking System',
-      description: 'Next-generation eye tracking technology that monitors eye movements and patterns for early detection of neurological conditions. Eyelead provides precise, non-invasive monitoring for better patient outcomes.',
-      image: 'https://images.pexels.com/photos/5752243/pexels-photo-5752243.jpeg?auto=compress&cs=tinysrgb&w=800',
+      name: 'ASAT1.0',
+      tagline: 'Advanced self acoustic tonometer',
+      description: 'Next-generation diagnostic device for glaucoma.',
+      image: 'img22.jpg',
       video: 'https://videos.pexels.com/video-files/7089020/7089020-uhd_2560_1440_25fps.mp4',
       features: [
         'Precise eye movement tracking',
