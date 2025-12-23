@@ -65,6 +65,16 @@ const Products: React.FC<ProductsProps> = ({ onProductSelect }) => {
               onMouseLeave={() => setHoveredProduct(null)}
             >
               <div className="aspect-video overflow-hidden">
+                 {/* Product Status Label */}
+                <div className="absolute top-2 left-2 sm:top-4 sm:left-4 z-10">
+                  <span className={`px-2 py-1 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm font-semibold shadow-lg ${
+                    product.id === 1 
+                      ? 'bg-green-100 text-green-800' 
+                      : 'bg-yellow-100 text-yellow-800'
+                  }`}>
+                    {product.id === 1 ? 'Final Manufacturing under process' : 'R&D in progress'}
+                  </span>
+                </div>
                 {hoveredProduct === product.id ? (
                   <video
                     autoPlay
