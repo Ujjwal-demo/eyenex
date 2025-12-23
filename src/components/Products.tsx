@@ -28,12 +28,12 @@ const Products: React.FC<ProductsProps> = ({ onProductSelect }) => {
       tagline: 'Advanced self acoustic tonometer',
       description: 'Next-generation diagnostic device for glaucoma.',
       image: 'img22.jpg',
-      video: 'https://videos.pexels.com/video-files/7089020/7089020-uhd_2560_1440_25fps.mp4',
+      video: 'media2.mp4',
       features: [
-        'Precise eye movement tracking',
-        'Neurological condition detection',
-        'Non-invasive monitoring',
-        'Advanced pattern recognition'
+        'Portable and user-friendly',
+        'Non-Contact and Hygienic',
+        'Ultra Gentle, Minimal Deformation Principle',
+        'Cloud data storage and analysis'
       ],
       icon: <Eye className="h-8 w-8" />
     }
